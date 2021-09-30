@@ -77,6 +77,7 @@ void setup() {
 
   display.clear();
   display.flipScreenVertically();
+  pixels.setPixelColor(0, pixels.Color(0, 150, 0)); pixels.show();
   displayAliveNugg();
 
 }
